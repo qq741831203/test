@@ -7,7 +7,7 @@ public class Mytest   {
     	BGBZ_BDZ a = new BGBZ_BDZ();
     	a.setId("1");
     	BGBZ_BDZ b = a;
-    	a.setId("2");
+    	a.setId("3");
     	System.out.println(b.getId());
     }
   
