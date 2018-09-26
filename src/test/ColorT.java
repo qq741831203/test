@@ -15,6 +15,7 @@ public class ColorT {
 		String[] array={"1","1","2","2","3","3","3","4","4","5","11","14"};
 		System.out.println("主分支");
 		System.out.println("test分支");
+		System.out.println("test分支");
 		System.out.println("测试分支加一行");
 		System.out.println("测试分支加二行");
 		System.out.println("测试分支加三行");
