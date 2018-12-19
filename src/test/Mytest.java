@@ -1,16 +1,24 @@
 package test;
 
-import com.dw.dao.bgbz.BGBZ_BDZ;
 
-public class Mytest   {
-    public static void main(String args[]) {
-    	BGBZ_BDZ a = new BGBZ_BDZ();
-    	a.setId("1");
-    	BGBZ_BDZ b = a;
-    	a.setId("3");
-    	System.out.println(b.getId());
+import com.swetake.util.Qrcode;
+
+import javax.imageio.ImageIO;
+import javax.imageio.stream.FileImageInputStream;
+import java.awt.*;
+import java.awt.image.BufferedImage;
+import java.io.File;
+import java.io.IOException;
+import java.io.UnsupportedEncodingException;
+
+public class Mytest {
+
+    public static void main(String args[])  {
+
+
+
     }
-  
-	
+
+
 
 }

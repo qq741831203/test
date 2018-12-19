@@ -9,6 +9,21 @@ public class Been {
 	 String bddlq;
 	 String xljkcd;
 	 String xldlcd;
+
+	@Override
+	public String toString() {
+		return "Been{" +
+				"hb='" + hb + '\'' +
+				", lx='" + lx + '\'' +
+				", dydj='" + dydj + '\'' +
+				", nx='" + nx + '\'' +
+				", bdzbsl='" + bdzbsl + '\'' +
+				", bddlq='" + bddlq + '\'' +
+				", xljkcd='" + xljkcd + '\'' +
+				", xldlcd='" + xldlcd + '\'' +
+				'}';
+	}
+
 	public String getHb() {
 		return hb;
 	}
